@@ -26,7 +26,7 @@ int main(){
        
         potongan[arr[i]-1]=a; // 500 250 250 
     }
-    for(float x :potongan){
+    for(float x : potongan){
         cout << x << " ";
     }
 
