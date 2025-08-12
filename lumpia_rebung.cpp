@@ -2,15 +2,17 @@
 #include <vector>
 using namespace std;
 int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int teman;
     float lumpia;
     cin >> teman;
     cin >> lumpia;
-    int arr[teman];
     float a;
+    vector<int> arr;
     for(int i=0; i<teman; i++){
         cin>>a;
-        arr[i]=a; // 1 2 2 1
+        arr.push_back(a); // 1 2 2 1
     }
     vector<float>potongan={lumpia/2, lumpia/2}; // 500 500
     for (int i=1; i<teman; i++){
